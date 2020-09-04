@@ -1,0 +1,32 @@
+$colors:(
+  bg-main:#33264E,
+  bg-footer: #362953,
+  accent: #EE3E52,
+  text: white,
+  link: #EE3E52,
+  gradient1:#FF6071,
+  gradient2:#FF7E8E,
+  cat1:#673AB7,
+  cat2:#5567DA,
+  cat3:#1E88E5,
+  cat4:#27CC81,
+  cat5:#38C4D1,
+  cat6:#E91E63,
+  twitter:#63CDF1,
+  facebook:#507CBE,
+  instagram:#D62976,
+  pinterest:#EE3E52
+);
+
+$sizes:(
+  main-container: 1200px,
+  article-container: 800px,
+  sidebar: 332px,
+  carrousel: 1600px
+);
+
+$fonts:(
+ text: #{"Mulish", sans-serif},
+ title: #{"Fairplay Display", serif},
+ logo: #{"Vampiro One", cursive},
+);

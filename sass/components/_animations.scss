@@ -1,0 +1,42 @@
+@keyframes pulse{
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(238, 62, 82, 1);
+	}
+	
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(238, 62, 82, 0);
+	}
+	
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(238, 62, 82, 0);
+	}
+}
+
+@keyframes pulse-white{
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgb(255, 255, 255);
+	}
+	
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(238, 62, 82, 0);
+	}
+	
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(238, 62, 82, 0);
+	}
+}
+
+@keyframes rotate {
+  from {
+    background-position: -100vw;
+  }
+  to { 
+    background-position: 0px;
+  }
+}
