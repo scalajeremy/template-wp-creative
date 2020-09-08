@@ -37,4 +37,9 @@
 .article__author{
   display: flex;
   flex-direction: row;
+  align-items: center;
+
+  * {
+    margin: 0 8px
+  }
 }
