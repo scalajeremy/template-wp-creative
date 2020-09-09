@@ -82,6 +82,9 @@
   margin: 0 8px;
   border-radius: 50%;
 }
+.articleMain__profile:hover {
+  animation: pulse-white 2s infinite;
+}
 .articleMain__text {
   font-family: Mulish, sans-serif;
   line-height: 1.7em;

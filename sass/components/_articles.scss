@@ -48,8 +48,12 @@
     height: 55px;
     margin: 0 8px;
     border-radius: 50%;
+
+    &:hover{
+      animation: pulse-white 2s infinite;
+    }
   }
-  
+
   &__text{
     font-family: font(text);
     line-height: 1.7em;
