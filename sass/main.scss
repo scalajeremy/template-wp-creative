@@ -12,7 +12,7 @@
 @import 'components/buttons';
 @import 'components/carrousel';
 @import 'components/category';
-
+@import 'components/sidebar';
 
 body{
   background-color: color(bg-main);
@@ -25,6 +25,10 @@ body{
 
 .mainContainer{
   max-width: size(main-container);
+}
+
+.flex-sidebar{
+  display: flex;
 }
 
 .breakline{
@@ -46,4 +50,15 @@ body{
 
 .gradient {
   background: linear-gradient(to right,  rgba(39,204,129,1) 0%,rgba(238,62,82,1) 25%,rgb(245, 184, 39) 50%,rgba(56,196,209,1) 75%,rgba(39,204,129,1) 100%);
+}
+
+
+a{
+  font-family: font(text);
+  color: color(text);
+  text-decoration: none;
+
+  &:hover{
+    color: color(link);
+  }
 }
