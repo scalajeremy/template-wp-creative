@@ -1,7 +1,63 @@
 .sidebar{
-  background: red;
   min-width: 300px;
   max-width: 332px;
   margin-left: 68px;
   margin-top: 30px;
+}
+
+.recentPost{
+
+  &__titleSide{
+    font-family: font(title);
+    font-size: 1.3em;
+    margin: 0 0 16px 0;
+
+    &::after{
+      display: inline-block;
+      content: '';
+      width: 60%;
+      height: 2px;
+      margin: 0 0 5px 0;
+      background: color(accent);
+    }
+  }
+
+  &__article{
+    display: flex;
+    margin: 0 0 16px 0;
+  }
+  
+  &__infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__title{
+    font-family: font(title);
+    font-size: 1.2em;
+  }
+
+  &__date{
+    font-size: 0.9em;
+    line-height: 24px;
+
+    &::before{
+      content: "";
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      margin: 0px 8px 0px 0;
+      background: #EE3E52;
+      transform: rotate(45deg);
+    }
+  }
+  
+
+  img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin: 0 8px 0 0;
+  }
 }

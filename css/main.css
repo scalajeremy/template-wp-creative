@@ -96,8 +96,8 @@
   transform: rotate(45deg);
 }
 .articleMain__profile {
-  width: 55px;
-  height: 55px;
+  width: 44px;
+  height: 44px;
   margin: 0 8px 0 0;
   border-radius: 50%;
 }
@@ -186,6 +186,9 @@ header nav a:hover {
   cursor: pointer;
   color: white;
   text-decoration: none;
+}
+.btn-rect:active, .btn-rect:visited, .btn-rect:hover {
+  color: white;
 }
 
 .articleBtn {
@@ -364,11 +367,56 @@ header nav a:hover {
 }
 
 .sidebar {
-  background: red;
   min-width: 300px;
   max-width: 332px;
   margin-left: 68px;
   margin-top: 30px;
+}
+
+.recentPost__titleSide {
+  font-family: Fairplay Display, serif;
+  font-size: 1.3em;
+  margin: 0 0 16px 0;
+}
+.recentPost__titleSide::after {
+  display: inline-block;
+  content: "";
+  width: 60%;
+  height: 2px;
+  margin: 0 0 5px 0;
+  background: #EE3E52;
+}
+.recentPost__article {
+  display: flex;
+  margin: 0 0 16px 0;
+}
+.recentPost__infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.recentPost__title {
+  font-family: Fairplay Display, serif;
+  font-size: 1.2em;
+}
+.recentPost__date {
+  font-size: 0.9em;
+  line-height: 24px;
+}
+.recentPost__date::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin: 0px 8px 0px 0;
+  background: #EE3E52;
+  transform: rotate(45deg);
+}
+.recentPost img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin: 0 8px 0 0;
 }
 
 body {
